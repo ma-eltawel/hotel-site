@@ -114,9 +114,22 @@ header #menu-but:hover{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center !important;
     z-index: -1;
+}
+#home .swiper-slide:first-child{
+    background-image: url(../images/home-01.jpg);
+}
+#home .swiper-slide:nth-child(2){
+    background-image: url(../images/home-02.jpg);
+}
+#home .swiper-slide:nth-child(3){
+    background-image: url(../images/home-03.jpg);
+}
+#home .swiper-slide:last-child{
+    background-image: url(../images/home-04.jpg);
 }
 #home .swiper-slide .content{
     width: 80rem;
